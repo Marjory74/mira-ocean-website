@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "mira-ocean",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": { "directory": "./dist/client" },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "mira-ocean-db",
+    "database_id": "589bf9d0-e3b1-49bf-a16b-9fe98ad5b824"
+  }]
+}
